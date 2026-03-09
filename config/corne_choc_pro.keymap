@@ -46,7 +46,8 @@
 
         MoLayer3 {
             bindings = <&mo 3>;
-            key-positions = <42 43>;
+            key-positions = <44 45>;
+            layers = <0>;
         };
     };
 
