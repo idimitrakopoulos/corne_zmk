@@ -10,6 +10,8 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&mt { tapping-term-ms = <230>; };
+
 / {
     chosen { zmk,physical-layout = &default_layout; };
 };
@@ -40,12 +42,6 @@
             bindings = <&kp EXCLAMATION>;
             key-positions = <5 8>;
             layers = <0>;
-        };
-
-        MoSystemLayer {
-            bindings = <&mo 3>;
-            key-positions = <42 43>;
-            layers = <0 1 2>;
         };
     };
 
