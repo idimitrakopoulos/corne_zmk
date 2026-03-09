@@ -43,6 +43,11 @@
             key-positions = <5 8>;
             layers = <0>;
         };
+
+        MoLayer3 {
+            bindings = <&mo 3>;
+            key-positions = <42 43>;
+        };
     };
 
     keymap {
