@@ -69,10 +69,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE     &kp Q  &kp W  &kp E     &kp R             &kp T        &trans  &trans  &kp Y        &kp U              &kp I      &kp O    &kp P     &kp BSPC
-&mt LCTRL TAB  &kp A  &kp S  &kp D     &mt LEFT_SHIFT F  &kp G        &trans  &trans  &kp H        &mt RIGHT_SHIFT J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z  &kp X  &kp C     &kp V             &kp B                        &kp N        &kp M              &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
-                             &kp LGUI  &mo 2             &lt 1 SPACE                  &lt 2 SPACE  &mo 1              &kp ENTER
+&kp ESCAPE     &kp Q  &kp W               &kp E     &kp R             &kp T        &trans  &trans  &kp Y        &kp U              &kp I      &kp O    &kp P     &kp BSPC
+&mt LCTRL TAB  &kp A  &mt LEFT_CONTROL S  &kp D     &mt LEFT_SHIFT F  &kp G        &trans  &trans  &kp H        &mt RIGHT_SHIFT J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z  &kp X               &kp C     &kp V             &kp B                        &kp N        &kp M              &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
+                                          &kp LGUI  &mo 2             &lt 1 SPACE                  &lt 2 SPACE  &mo 1              &kp ENTER
             >;
         };
 
@@ -116,7 +116,7 @@
 &to 0   &kp F1        &kp F2           &kp F3        &kp F4        &kp F5          &trans  &trans  &kp F6  &kp F7  &kp F8          &kp F9          &kp F10          &bt BT_CLR
 &trans  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &bt BT_CLR_ALL
 &trans  &trans        &rgb_ug RGB_TOG  &sys_reset    &bootloader   &studio_unlock                  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
-                                       &trans        &trans        &trans                          &trans  &trans  &trans
+                                       &kp LEFT_ALT  &trans        &trans                          &trans  &trans  &kp RIGHT_ALT
             >;
 
             label = "SYSTEM";
