@@ -49,6 +49,36 @@
             key-positions = <40 41>;
             layers = <0>;
         };
+
+        Copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <31 16>;
+        };
+
+        Paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <16 32>;
+        };
+
+        Cut {
+            bindings = <&kp K_CUT>;
+            key-positions = <16 30>;
+        };
+
+        SelectAll {
+            bindings = <&kp K_SELECT>;
+            key-positions = <16 15>;
+        };
+
+        Undo {
+            bindings = <&kp K_UNDO>;
+            key-positions = <16 29>;
+        };
+
+        Lock {
+            bindings = <&kp K_LOCK>;
+            key-positions = <0 13>;
+        };
     };
 
     keymap {
